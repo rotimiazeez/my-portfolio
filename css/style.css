@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap");
+
+body {
+  background-color: black;
+}
+
+.header {
+  color: wheat;
+  font-family: Metal Mania, "Times New Roman", Times, serif;
+  text-align: center;
+}
