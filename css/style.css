@@ -267,3 +267,9 @@ a {
 .background-no-repeat {
   background-repeat: no-repeat;
 }
+
+.nav {
+  top: 0;
+  left: 0%;
+  right: 0%;
+}
