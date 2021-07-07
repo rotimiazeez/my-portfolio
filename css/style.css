@@ -1,11 +1,269 @@
-@import url("https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
 
-body {
-  background-color: black;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.header {
-  color: wheat;
-  font-family: Metal Mania, "Times New Roman", Times, serif;
-  text-align: center;
+body {
+  font-family: "Manrope", "Poppins", sans-serif;
+  background: #e5e5e5;
+}
+
+.p-rel {
+  position: relative;
+}
+
+.p-absl {
+  position: absolute;
+}
+
+.p-fixed {
+  position: fixed;
+}
+
+.font-size-40 {
+  font-size: 40px;
+}
+
+.font-size-28 {
+  font-size: 28px;
+}
+
+.font-size-24 {
+  font-size: 24px;
+}
+
+.font-size-18 {
+  font-size: 18px;
+}
+
+.font-size-16 {
+  font-size: 16px;
+}
+
+.font-size-12 {
+  font-size: 12px;
+}
+
+.font-size-8 {
+  font-size: 8px;
+}
+
+.font-weight-800 {
+  font-weight: 800;
+}
+
+.font-weight-900 {
+  font-weight: 900;
+}
+
+.font-weight-700 {
+  font-weight: 700;
+}
+
+.font-weight-500 {
+  font-weight: 500;
+}
+
+.font-weight-400 {
+  font-weight: 400;
+}
+
+.height-29 {
+  height: 29px;
+}
+
+.height-100 {
+  height: 100%;
+}
+
+.line-height-52 {
+  line-height: 52px;
+}
+
+.line-height-27 {
+  line-height: 27px;
+}
+
+.line-height-24 {
+  line-height: 24px;
+}
+
+.vh-100 {
+  height: 100vh;
+}
+
+.vh-80 {
+  height: 80vh;
+}
+
+ul {
+  list-style-type: none;
+}
+
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+a {
+  color: unset;
+  text-decoration: none;
+}
+
+.border {
+  border: 1px solid #396df2;
+}
+
+.border-btm {
+  border-bottom: 1px solid #dfe1e6;
+  width: 327px;
+}
+
+.transparent {
+  background-color: transparent;
+}
+
+.background-white {
+  background: #fff;
+}
+
+.dodgerblue {
+  color: #6070ff;
+}
+
+.slategray {
+  color: #172b4d;
+}
+
+.black {
+  color: #000;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.d-block {
+  display: block;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.pad-t-8 {
+  padding-top: 8px;
+}
+
+.pad-top-158 {
+  padding-top: 158px;
+}
+
+.pad-top-1em {
+  padding-top: 1.5em;
+}
+
+.pad-top-2em {
+  padding-top: 2.5em;
+}
+
+.pad-bottom-2em {
+  padding-bottom: 2.5em;
+}
+
+.margin-left-6 {
+  margin-left: 6px;
+}
+
+.margin-left-8 {
+  margin-left: 8px;
+}
+
+.margin-left-12 {
+  margin-left: 12px;
+}
+
+.margin-left-14 {
+  margin-left: 14px;
+}
+
+.margin-left-16 {
+  margin-left: 16px;
+}
+
+.margin-left-4e {
+  margin-left: 4em;
+}
+
+.margin-left-5e {
+  margin-left: 5em;
+}
+
+.margin-left-9e {
+  margin-left: 9.25em;
+}
+
+.margin-left-8e {
+  margin-left: 8em;
+}
+
+.margin-left-11e {
+  margin-left: 11em;
+}
+
+.margin-top-12 {
+  margin-top: 12px;
+}
+
+.margin-top-28 {
+  margin-top: 28px;
+}
+
+.margin-bottom-8 {
+  margin-bottom: 8px;
+}
+
+.margin-bottom-12 {
+  margin-bottom: 12px;
+}
+
+.pad-22 {
+  padding: 12px 22px;
+}
+
+.pad-24 {
+  padding: 12px 24px;
+}
+
+.pad-0 {
+  padding: 16px 0 16px;
+}
+
+.pad-27 {
+  padding: 16px 27px 16px;
+}
+
+.pad-36 {
+  padding: 16px 36px 16px;
+}
+
+.border-bottom-radius-13e {
+  border-bottom-left-radius: 13em;
+}
+
+.background-no-repeat {
+  background-repeat: no-repeat;
 }
