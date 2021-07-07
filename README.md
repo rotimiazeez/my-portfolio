@@ -1,15 +1,27 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Hello World
+# My Portfolio
 
-> A basic "Hello world" page that illustrate the use of tools and best practices for future Microverse projects.
+> Building a website portfolio is a project during the first module of the microverse program. Here is the list of projects guide. Details about each of the projects requirements wii be find in the upcoming program activities. Some of the projects will be solo, while others will be collaboratively with coding partner(s).
+
+- Project 1: Setup and mobile version skeleton
+- Project 2: Mobile version
+- Project 3: Contact form (pair programming)
+- Project 4: Desktop version
+- Project 5: Application deploy
+- Project 6: Evaluate accessibility (pair programming)
+- Project 7: Mobile menu (pair programming)
+- Project 8: Details modal (pair programming)
+- Project 9: Validate contact form (pair programming)
+- Project 10: Preserve data in the browser (pair programming)
 
 Additional description about the project and its features.
 
 ## Built With
 
-- HTML
-- CSS
+- HTML (semantic HTML5 tags)
+- CSS  ( CSS flexbox, CSS grid)
+- JavaScript
 - Stylelint, Github Actions
 
 ## Live Demo
