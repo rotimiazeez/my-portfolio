@@ -1,5 +1,5 @@
 {
-  "name": "hello-world",
+  "name": "my-portfolio",
   "version": "1.0.0",
   "description": "![](https://img.shields.io/badge/Microverse-blueviolet)",
   "main": "index.js",
@@ -16,12 +16,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rotimiazeez/hello-world.git"
+    "url": "git+https://github.com/rotimiazeez/my-portfolio.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/rotimiazeez/hello-world/issues"
+    "url": "https://github.com/rotimiazeez/my-portfolio/issues"
   },
-  "homepage": "https://github.com/rotimiazeez/hello-world#readme"
+  "homepage": "https://github.com/rotimiazeez/my-portfolio#readme"
 }
