@@ -148,6 +148,10 @@ a {
   align-items: center;
 }
 
+.none {
+  flex: none;
+}
+
 .wrap {
   flex-wrap: wrap;
 }
