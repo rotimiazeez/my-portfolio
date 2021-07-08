@@ -538,3 +538,24 @@ a {
 .text {
   font-family: "Poppins", Arial, Helvetica, sans-serif;
 }
+
+.about {
+  background: #f7f7f9;
+  border-radius: 8px;
+  width: 303px;
+  height: 66.72px;
+}
+
+.about-logo {
+  width: 48px;
+  height: 48px;
+  left: 12px;
+  top: 12px;
+}
+
+.logo-text {
+  height: 24px;
+  left: 76px;
+  right: 12px;
+  top: calc(50% - 24px / 2 - 0.36px);
+}
