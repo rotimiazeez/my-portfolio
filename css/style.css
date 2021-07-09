@@ -212,6 +212,12 @@ a {
   color: #7a869a;
 }
 
+.hover:hover {
+  opacity: 0.5;
+  border: 1px solid #7a869a;
+  color: #7a869a;
+}
+
 .align-center {
   align-items: center;
 }
