@@ -28,6 +28,10 @@ body {
   font-size: 40px;
 }
 
+.font-size-32 {
+  font-size: 32px;
+}
+
 .font-size-28 {
   font-size: 28px;
 }
@@ -42,6 +46,10 @@ body {
 
 .font-size-16 {
   font-size: 16px;
+}
+
+.font-size-13 {
+  font-size: 13px;
 }
 
 .font-size-12 {
@@ -60,8 +68,16 @@ body {
   font-weight: 900;
 }
 
+.bold {
+  font-weight: bold;
+}
+
 .font-weight-700 {
   font-weight: 700;
+}
+
+.font-weight-600 {
+  font-weight: 600;
 }
 
 .font-weight-500 {
@@ -72,8 +88,32 @@ body {
   font-weight: 400;
 }
 
+.width-65 {
+  width: 65px;
+}
+
+.width-53 {
+  width: 53px;
+}
+
+.width-45 {
+  width: 45px;
+}
+
+.height-16 {
+  height: 16px;
+}
+
 .height-29 {
   height: 29px;
+}
+
+.height-20 {
+  height: 20px;
+}
+
+.height-48 {
+  height: 48px;
 }
 
 .height-100 {
@@ -84,12 +124,24 @@ body {
   line-height: 52px;
 }
 
+.line-height-44 {
+  line-height: 44px;
+}
+
 .line-height-27 {
   line-height: 27px;
 }
 
 .line-height-24 {
   line-height: 24px;
+}
+
+.line-height-20 {
+  line-height: 20px;
+}
+
+.line-height-16 {
+  line-height: 16px;
 }
 
 .vh-100 {
@@ -132,6 +184,14 @@ a {
   background: #fff;
 }
 
+.background-grey {
+  background: #ebebff;
+}
+
+.blue {
+  color: #396df2;
+}
+
 .dodgerblue {
   color: #6070ff;
 }
@@ -140,16 +200,26 @@ a {
   color: #172b4d;
 }
 
+.slateblu {
+  color: #344563;
+}
+
 .black {
   color: #000;
 }
 
-.align-center {
-  align-items: center;
+.grey {
+  color: #7a869a;
 }
 
-.none {
-  flex: none;
+.hover:hover {
+  opacity: 0.5;
+  border: 1px solid #7a869a;
+  color: #7a869a;
+}
+
+.align-center {
+  align-items: center;
 }
 
 .wrap {
@@ -164,12 +234,32 @@ a {
   display: block;
 }
 
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
 .justify-content-between {
   justify-content: space-between;
 }
 
+.pad-16 {
+  padding: 16px;
+}
+
 .pad-t-8 {
   padding-top: 8px;
+}
+
+.pad-top-12 {
+  padding-top: 12px;
+}
+
+.pad-top-16 {
+  padding-top: 16px;
 }
 
 .pad-top-158 {
@@ -184,8 +274,32 @@ a {
   padding-top: 2.5em;
 }
 
+.pad-bottom-30 {
+  padding-bottom: 30px;
+}
+
+.pad-top-7em {
+  padding-top: 7em;
+}
+
 .pad-bottom-2em {
   padding-bottom: 2.5em;
+}
+
+.pad-bottom-1em {
+  padding-bottom: 1.5em;
+}
+
+.pad-left-13 {
+  padding-left: 13px;
+}
+
+.pad-left-12 {
+  padding-left: 12px;
+}
+
+.pad-left-7 {
+  padding-left: 7px;
 }
 
 .margin-left-6 {
@@ -236,6 +350,10 @@ a {
   margin-top: 28px;
 }
 
+.margin-top-6em {
+  margin-top: 6em;
+}
+
 .margin-bottom-8 {
   margin-bottom: 8px;
 }
@@ -264,8 +382,16 @@ a {
   padding: 16px 36px 16px;
 }
 
-.border-bottom-radius-13e {
-  border-bottom-left-radius: 13em;
+.border-radius-16 {
+  border-radius: 16px;
+}
+
+.border-radius-7 {
+  border-radius: 7px;
+}
+
+.border-bottom-radius-5e {
+  border-bottom-left-radius: 5em;
 }
 
 .background-no-repeat {
@@ -281,7 +407,7 @@ a {
 
 .ellipse-11 {
   background-image: url("/assets/Ellipse-11.png");
-  width: 24px;
+  width: 23px;
   height: 29px;
   top: 133px;
 }
@@ -314,7 +440,7 @@ a {
 
 .rectangle-4 {
   background-image: url("/assets/Rectangle-4.png");
-  width: 75.02px;
+  width: 71.02px;
   height: 66.58px;
   left: 81%;
   top: 110.79px;
@@ -366,4 +492,76 @@ a {
 .button {
   padding: 0 11px;
   border-radius: 6px;
+}
+
+.grid {
+  grid-template-columns: repeat(1, 1fr);
+}
+
+.cards {
+  border: 1px solid #dfe1e6;
+}
+
+.cards-img {
+  width: 100%;
+  height: 218px;
+  background-size: cover;
+}
+
+.img {
+  background-image: url("/assets/Snapshoot-1.png");
+}
+
+.img-2 {
+  background-image: url("/assets/Snapshoot-2.png");
+}
+
+.img-3 {
+  background-image: url("/assets/Snapshoot-3.png");
+}
+
+.img-4 {
+  background-image: url("/assets/Snapshoot-4.png");
+}
+
+.cards-text-header {
+  position: static;
+  width: 295px;
+  height: 36px;
+  left: 0;
+  top: 0;
+}
+
+.box {
+  background: #c1c7d0;
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.text {
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+}
+
+.about {
+  background: #f7f7f9;
+  border-radius: 8px;
+  width: 303px;
+  height: 66.72px;
+}
+
+.about-logo {
+  width: 48px;
+  height: 48px;
+  left: 12px;
+  top: 12px;
+}
+
+.logo-text {
+  height: 24px;
+  left: 76px;
+  right: 12px;
+  top: calc(50% - 24px / 2 - 0.36px);
 }

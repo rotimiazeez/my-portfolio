@@ -10,13 +10,13 @@ Additional description about the project and its features.
 ## Built With
 
 - HTML (semantic HTML5 tags)
-- CSS  ( CSS flexbox, CSS grid)
+- CSS  ( CSS flexbox, CSS grid, ul, li)
 - JavaScript
 - Stylelint, Github Actions
 
 ## Live Demo
 
-[Live Demo Link - coming soon]()
+[Live Demo Link](https://deploy-preview-2--rotimiazeez-portfolio.netlify.app/)
 
 ## Getting Started
 
@@ -33,7 +33,7 @@ To get a local copy up and running follow these simple example steps.
 - Clone the project
 
 ```bash
-git clone https://github.com/rotimiazeez/hello-world.git
+git clone https://github.com/rotimiazeez/my-portfolio.git
 
 ```
 
