@@ -240,6 +240,16 @@ a {
   color: #7a869a;
 }
 
+.hover:hover {
+  border: 1px solid #7a869a;
+  color: #344563;
+}
+
+.active:active {
+  transform: scale(0.98);
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
 .align-center {
   align-items: center;
 }
