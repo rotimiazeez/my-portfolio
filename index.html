@@ -42,7 +42,7 @@
         </p>
         <p class="dodgerblue font-size-16 font-weight-700 line-height-24 margin-bottom-8">LET’S CONNECT</p>
         <ul class="d-flex font-size-24 slategray margin-bottom-8">
-<li><a href="#" class=""><img src="/assets/twitter.svg" alt="twitter icon"></a></li>
+            <li><a href="#" class=""><img src="/assets/twitter.svg" alt="twitter icon"></a></li>
             <li><a href="#" class="margin-left-16"><img src="/assets/linkedin.svg" alt="linkedin icon"></a></li>
             <li><a href="#" class="margin-left-16"><img src="/assets/medium.svg" alt="medium icon"></a></li>
             <li><a href="#" class="margin-left-16"><img src="/assets/git.svg" alt="git icon"></a></li>
@@ -80,7 +80,7 @@
                             javascript</li>
                     </ul>
                     <button type="button"
-                        class="button blue border height-48 font-weight-500 font-size-18 line-height-24 hover">See
+                        class="button blue border height-48 font-weight-500 font-size-18 line-height-24 hover active">See
                         Project</button>
                 </div>
             </div>
@@ -116,7 +116,7 @@
                             javascript</li>
                     </ul>
                     <button type="button"
-                        class="button blue border height-48 font-weight-500 font-size-18 line-height-24 hover">See
+                        class="button blue border height-48 font-weight-500 font-size-18 line-height-24 hover active">See
                         Project</button>
                 </div>
             </div>
@@ -151,7 +151,7 @@
                             javascript</li>
                     </ul>
                     <button type="button"
-                        class="button blue border height-48 font-weight-500 font-size-18 line-height-24 hover">See
+                        class="button blue border height-48 font-weight-500 font-size-18 line-height-24 hover active">See
                         Project</button>
                 </div>
             </div>
@@ -187,7 +187,7 @@
                             javascript</li>
                     </ul>
                     <button type="button"
-                        class="button blue border height-48 font-weight-500 font-size-18 line-height-24 hover">See
+                        class="button blue border height-48 font-weight-500 font-size-18 line-height-24 hover active">See
                         Project</button>
                 </div>
             </div>
@@ -209,9 +209,10 @@
             <li><a href="#" class="margin-left-16"><img src="/assets/linkedin.svg" alt="linkedin icon"></a></li>
             <li><a href="#" class="margin-left-16"><img src="/assets/medium.svg" alt="medium icon"></a></li>
             <li><a href="#" class="margin-left-16"><img src="/assets/git.svg" alt="git icon"></a></li>
-           <li> <a href="#" class="margin-left-16"><img src="/assets/angelist.svg" alt="angellist icon"></a></li>
+            <li> <a href="#" class="margin-left-16"><img src="/assets/angelist.svg" alt="angellist icon"></a></li>
         </ul>
-        <button type="button" class="button dodgerblue border height-29 font-weight-600 font-size-18 line-height-24 hover">Get
+        <button type="button"
+            class="button dodgerblue border height-29 font-weight-600 font-size-18 line-height-24 hover active">Get
             my
             resume</button>
         <div class="pad-0">
@@ -255,6 +256,53 @@
         </div>
 
     </section>
+
+    <footer class="background-white p-rel pad-top-4em">
+        <div class="p-absl rectangle-4-down background-no-repeat"></div>
+        <div class="p-absl ellipse-3-down background-no-repeat"></div>
+        <div class="p-absl ellipse-12-down background-no-repeat height-100"></div>
+        <div class="p-absl ellipse-5-down background-no-repeat"></div>
+        <div class="p-absl rectangle-7-down background-no-repeat"></div>
+        <div class="p-absl indicator background-no-repeat"></div>
+
+        <section class="background-dblue border-top-radius-5e pad-24-0 text-al-center d-flex flex-column">
+            <h5 class="font-weight-700 font-size-40 line-height-52 white pad-top-2em">Contact me</h5>
+            <p class="font-weight-400 font-size-20 line-height-28 white">
+                If you have an application you are interested in developing, a feature that you need built or a project
+                that needs coding. I’d love to help with it
+            </p>
+
+            <form action="https://formspree.io/f/meqvzjpw" method="POST">
+                <div class="input-group">
+                    <div><label for="name"></label></div>
+                    <div><input type="text" name="name" maxlength="30" required id="name" placeholder="Name"
+                            class="width-327 pad-16 border-radius-8 margin-top-3em height-48 background-white font-weight-400 font-size-18 line-height-20">
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <div><label for="email"></label></div>
+                    <div><input type="email" name="email" required id="email" placeholder="Email"
+                            class="width-327 pad-16 border-radius-8 margin-top-12 height-48 background-white font-weight-400 font-size-18 line-height-20">
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <div><label for="message"></label></div>
+                    <div><textarea maxlength="500" name="message" required id="message"
+                            placeholder="Write your message here"
+                            class="border-radius-8 margin-top-12 height-48 pad-16 width-327 height-170"></textarea>
+                    </div>
+                </div>
+                <div class="text-align-start">
+                    <button type="submit"
+                        class="button blue border height-48 font-weight-500 font-size-18 line-height-24 background-white margin-top-12 hover active">Get
+                        In Touch</button>
+                </div>
+
+            </form>
+        </section>
+    </footer>
 </body>
 
 </html>
