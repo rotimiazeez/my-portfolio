@@ -108,6 +108,14 @@ body {
   width: 45px;
 }
 
+.width-88 {
+  width: 88px;
+}
+
+.width-50 {
+  width: 50%;
+}
+
 .height-16 {
   height: 16px;
 }
@@ -306,6 +314,10 @@ a {
   padding-top: 12px;
 }
 
+.pad-top-24 {
+  padding-top: 24px;
+}
+
 .pad-top-16 {
   padding-top: 16px;
 }
@@ -452,6 +464,10 @@ a {
 
 .pad-36 {
   padding: 16px 36px 16px;
+}
+
+.border-radius-24 {
+  border-radius: 24px;
 }
 
 .border-radius-16 {
@@ -604,6 +620,10 @@ a {
   background-image: url("/assets/Snapshoot-4.png");
 }
 
+.img-5 {
+  background-image: url("/assets/Snapshoot-5.png");
+}
+
 .cards-text-header {
   position: static;
   width: 295px;
@@ -699,6 +719,14 @@ a {
     height: 125vh;
   }
 
+  .pad-142 {
+    padding: 24px 142px;
+  }
+
+  .pad-145-lg {
+    padding: 0 24px 145px;
+  }
+
   .d-block-lg {
     display: block;
   }
@@ -709,6 +737,14 @@ a {
 
   .d-flex-lg {
     display: flex;
+  }
+
+  .flex-column-lg {
+    flex-direction: column;
+  }
+
+  .flex-row-lg {
+    flex-direction: row;
   }
 
   .padding-104-lg {
@@ -795,15 +831,15 @@ a {
     width: 163.06px;
     height: 99px;
     left: 51%;
-    top: 708px;
+    top: 630px;
   }
 
   .ellipse-4-lg {
     background-image: url("/assets/Ellipse-4-lg.svg");
-    width: 50px;
+    width: 49px;
     height: 47px;
     left: 59%;
-    top: 711.3px;
+    top: 633.3px;
   }
 
   .ellipse-13-lg {
@@ -819,5 +855,29 @@ a {
     height: 23px;
     left: 13%;
     top: 687.69px;
+  }
+
+  .img-6 {
+    background-image: url("/assets/Snapshoot-1-lg.png");
+  }
+
+  .img-7 {
+    background-image: url("/assets/Snapshoot-2-lg.png");
+  }
+
+  .img-8 {
+    background-image: url("/assets/Snapshoot-3-lg.png");
+  }
+
+  .cards-img-lg {
+    width: 50%;
+    height: 434px;
+    background-size: cover;
+  }
+
+  .cards-lg {
+    border: 1px solid #dfe1e6;
+    width: 1156px;
+    height: 496px;
   }
 }
