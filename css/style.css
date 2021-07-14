@@ -270,6 +270,10 @@ a {
   display: flex;
 }
 
+.d-none {
+  display: none;
+}
+
 .d-block {
   display: block;
 }
@@ -688,4 +692,132 @@ a {
   height: 1%;
   left: 33%;
   top: 99%;
+}
+
+@media only screen and (min-width: 768px) {
+  .vh-125-lg {
+    height: 125vh;
+  }
+
+  .d-block-lg {
+    display: block;
+  }
+
+  .d-none-lg {
+    display: none;
+  }
+
+  .d-flex-lg {
+    display: flex;
+  }
+
+  .padding-104-lg {
+    padding: 12px 104px;
+  }
+
+  .padding-229-lg {
+    padding: 157px 229px 0;
+  }
+
+  .ellipse-11-lg {
+    background-image: url("/assets/Ellipse-11-lg.svg");
+    width: 90.46px;
+    height: 57px;
+    left: 42.18px;
+    top: 199.59px;
+  }
+
+  .ellipse-5-lg {
+    background-image: url("/assets/Ellipse-5-lg.svg");
+    width: 29px;
+    height: 27px;
+    left: 49%;
+    top: 267.81px;
+  }
+
+  .ellipse-6-lg {
+    background-image: url("/assets/Ellipse-6-lg.svg");
+    width: 88px;
+    height: 83px;
+    left: 86%;
+    top: 500.81px;
+  }
+
+  .rectangle-6-lg {
+    background-image: url("/assets/Rectangle-6-lg.svg");
+    width: 91.46px;
+    height: 93px;
+    left: 10.18px;
+    top: 136.59px;
+  }
+
+  .rectangle-7-lg {
+    background-image: url("/assets/Rectangle-7-lg.svg");
+    width: 60.46px;
+    height: 24.73px;
+    left: 47%;
+    top: 250px;
+  }
+
+  .ellipse-8-lg {
+    background-image: url("/assets/Ellipse-8-lg.svg");
+    width: 15px;
+    height: 15px;
+    left: 214px;
+    top: 110px;
+  }
+
+  .rectangle-4-lg {
+    background-image: url("/assets/Rectangle-4-lg.svg");
+    width: 199.02px;
+    height: 144px;
+    left: 79%;
+    top: 72.79px;
+  }
+
+  .ellipse-3-lg {
+    background-image: url("/assets/Ellipse-3-lg.svg");
+    width: 210px;
+    height: 213px;
+    left: 83%;
+    top: 152.24px;
+  }
+
+  .ellipse-7-lg {
+    background-image: url("/assets/Ellipse-7-lg.svg");
+    width: 42px;
+    left: 64%;
+    top: 112px;
+  }
+
+  .rectangle-5-lg {
+    background-image: url("/assets/Rectangle-5-lg.svg");
+    width: 163.06px;
+    height: 99px;
+    left: 51%;
+    top: 708px;
+  }
+
+  .ellipse-4-lg {
+    background-image: url("/assets/Ellipse-4-lg.svg");
+    width: 50px;
+    height: 47px;
+    left: 59%;
+    top: 711.3px;
+  }
+
+  .ellipse-13-lg {
+    background-image: url("/assets/Ellipse-13-lg.svg");
+    width: 56.1px;
+    left: 12%;
+    top: 696.44px;
+  }
+
+  .ellipse-12-lg {
+    background-image: url("/assets/Ellipse-12-lg.svg");
+    width: 42.14px;
+    height: 23px;
+    left: 13%;
+    top: 687.69px;
+  }
 }
