@@ -718,7 +718,7 @@ a {
   top: 99%;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 992px) {
   .vh-125-lg {
     height: 125vh;
   }
@@ -953,6 +953,7 @@ a {
   .ellipse-12-lg-down {
     background-image: url("/assets/Ellipse-12-lg-down.svg");
     width: 28.14px;
+    height: 2px;
     left: 37%;
     top: 26%;
   }
