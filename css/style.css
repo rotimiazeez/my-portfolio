@@ -128,6 +128,10 @@ body {
   height: 20px;
 }
 
+.height-23 {
+  height: 23px;
+}
+
 .height-48 {
   height: 48px;
 }
@@ -719,12 +723,40 @@ a {
     height: 125vh;
   }
 
+  .font-size-15-lg {
+    font-size: 15px;
+  }
+
   .pad-142 {
     padding: 24px 142px;
   }
 
   .pad-145-lg {
     padding: 0 24px 145px;
+  }
+
+  .margin-top-12-lg {
+    margin-top: 12px;
+  }
+
+  .pad-56-12 {
+    padding: 0 56px 0 12px;
+  }
+
+  .pad-left-49 {
+    padding-left: 49px;
+  }
+
+  .margin-left-49 {
+    margin-left: 49px;
+  }
+
+  .margin-left-33e-lg {
+    margin-left: 33em;
+  }
+
+  .border-top-radius-right-5e {
+    border-top-right-radius: 5em;
   }
 
   .d-block-lg {
@@ -879,5 +911,18 @@ a {
     border: 1px solid #dfe1e6;
     width: 1156px;
     height: 496px;
+  }
+
+  .about-lg {
+    background: #f7f7f9;
+    border-radius: 8px;
+    width: 122px;
+    height: 120px;
+    padding-right: 16px;
+  }
+
+  .border-btm-lg {
+    border-bottom: 1px solid #dfe1e6;
+    width: 684px;
   }
 }
