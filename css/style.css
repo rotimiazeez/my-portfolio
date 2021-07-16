@@ -592,6 +592,8 @@ a {
 .button {
   padding: 0 11px;
   border-radius: 6px;
+  transition-property: all;
+  transition-duration: 2s;
 }
 
 .grid {
@@ -913,6 +915,14 @@ a {
     width: 50%;
     height: 434px;
     background-size: cover;
+    transition-property: all;
+    transition-duration: 1s;
+  }
+
+  .cards-img-lg:hover {
+    transform: scale(1.1);
+    background-color: #333;
+    background-size: contain;
   }
 
   .cards-lg {
@@ -997,5 +1007,26 @@ a {
     height: 10%;
     left: 74%;
     top: 67%;
+  }
+
+  .hover-lg:hover {
+    background-color: #7f8cff;
+    transform: rotateY(180deg);
+  }
+
+  .logo {
+    animation: logo 2s ease-in-out;
+  }
+
+  @keyframes logo {
+    100% { transform: rotateY(360deg); }
+  }
+
+  .form-text {
+    transition-property: all;
+  }
+
+  .form-text:hover {
+    transform: translate(100px);
   }
 }
