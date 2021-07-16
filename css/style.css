@@ -1021,4 +1021,12 @@ a {
   @keyframes logo {
     100% { transform: rotateY(360deg); }
   }
+
+  .form-text {
+    transition-property: all;
+  }
+
+  .form-text:hover {
+    transform: translate(100px);
+  }
 }
