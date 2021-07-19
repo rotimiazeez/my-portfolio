@@ -16,7 +16,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://deploy-preview-2--rotimiazeez-portfolio.netlify.app/)
+[Live Link](https://rotimiazeez.github.io/my-portfolio/)
 
 ## Getting Started
 
