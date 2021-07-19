@@ -506,14 +506,14 @@ a {
 }
 
 .ellipse-11 {
-  background-image: url("/assets/Ellipse-11.png");
+  background-image: url("./assets/Ellipse-11.png");
   width: 23px;
   height: 29px;
   top: 133px;
 }
 
 .ellipse-5 {
-  background-image: url("/assets/Ellipse-5.png");
+  background-image: url("./assets/Ellipse-5.png");
   width: 13px;
   height: 13px;
   left: 123.98px;
@@ -522,7 +522,7 @@ a {
 }
 
 .rectangle-7 {
-  background-image: url("/assets/Rectangle-7.png");
+  background-image: url("./assets/Rectangle-7.png");
   color: #6070ff;
   width: 26.46px;
   height: 23.73px;
@@ -531,7 +531,7 @@ a {
 }
 
 .ellipse-8 {
-  background-image: url("/assets/Ellipse-8.png");
+  background-image: url("./assets/Ellipse-8.png");
   width: 15px;
   height: 15px;
   left: 214px;
@@ -539,7 +539,7 @@ a {
 }
 
 .rectangle-4 {
-  background-image: url("/assets/Rectangle-4.png");
+  background-image: url("./assets/Rectangle-4.png");
   width: 71.02px;
   height: 66.58px;
   left: 81%;
@@ -547,7 +547,7 @@ a {
 }
 
 .ellipse-3 {
-  background-image: url("/assets/Ellipse-3.png");
+  background-image: url("./assets/Ellipse-3.png");
   width: 47px;
   height: 105px;
   left: 87%;
@@ -555,35 +555,35 @@ a {
 }
 
 .ellipse-15 {
-  background-image: url("/assets/Ellipse-15.png");
+  background-image: url("./assets/Ellipse-15.png");
   width: 15px;
   left: 53px;
   top: 570px;
 }
 
 .rectangle-5 {
-  background-image: url("/assets/Rectangle-5.png");
+  background-image: url("./assets/Rectangle-5.png");
   width: 68.06px;
   left: 41%;
   top: 570px;
 }
 
 .ellipse-4 {
-  background-image: url("/assets/Ellipse-4.png");
+  background-image: url("./assets/Ellipse-4.png");
   width: 20px;
   left: 52%;
   top: 570.1px;
 }
 
 .ellipse-13 {
-  background-image: url("/assets/Ellipse-13.png");
+  background-image: url("./assets/Ellipse-13.png");
   width: 30.1px;
   left: 83%;
   top: 540.44px;
 }
 
 .ellipse-12 {
-  background-image: url("/assets/Ellipse-12.png");
+  background-image: url("./assets/Ellipse-12.png");
   width: 24.14px;
   left: 86%;
   top: 528.69px;
@@ -611,23 +611,23 @@ a {
 }
 
 .img {
-  background-image: url("/assets/Snapshoot-1.png");
+  background-image: url("./assets/Snapshoot-1.png");
 }
 
 .img-2 {
-  background-image: url("/assets/Snapshoot-2.png");
+  background-image: url("./assets/Snapshoot-2.png");
 }
 
 .img-3 {
-  background-image: url("/assets/Snapshoot-3.png");
+  background-image: url("./assets/Snapshoot-3.png");
 }
 
 .img-4 {
-  background-image: url("/assets/Snapshoot-4.png");
+  background-image: url("./assets/Snapshoot-4.png");
 }
 
 .img-5 {
-  background-image: url("/assets/Snapshoot-5.png");
+  background-image: url("./assets/Snapshoot-5.png");
 }
 
 .cards-text-header {
@@ -673,7 +673,7 @@ a {
 }
 
 .rectangle-4-down {
-  background-image: url("/assets/Rectangle-4-down.svg");
+  background-image: url("./assets/Rectangle-4-down.svg");
   width: 67.02px;
   height: 66.58px;
   left: 82%;
@@ -681,7 +681,7 @@ a {
 }
 
 .ellipse-3-down {
-  background-image: url("/assets/Ellipse-3-down.svg");
+  background-image: url("./assets/Ellipse-3-down.svg");
   width: 47px;
   height: 105px;
   left: 87%;
@@ -689,14 +689,14 @@ a {
 }
 
 .ellipse-12-down {
-  background-image: url("/assets/Ellipse-12-down.svg");
+  background-image: url("./assets/Ellipse-12-down.svg");
   width: 24.14px;
   left: 43%;
   top: 15%;
 }
 
 .ellipse-5-down {
-  background-image: url("/assets/Ellipse-5-down.svg");
+  background-image: url("./assets/Ellipse-5-down.svg");
   width: 35px;
   height: 4%;
   left: 66%;
@@ -705,7 +705,7 @@ a {
 }
 
 .rectangle-7-down {
-  background-image: url("/assets/Rectangle-7-down.svg");
+  background-image: url("./assets/Rectangle-7-down.svg");
   width: 18%;
   height: 8%;
   left: 66%;
@@ -713,7 +713,7 @@ a {
 }
 
 .indicator {
-  background-image: url("/assets/Shape.svg");
+  background-image: url("./assets/Shape.svg");
   width: 36%;
   height: 1%;
   left: 33%;
@@ -798,7 +798,7 @@ a {
   }
 
   .ellipse-11-lg {
-    background-image: url("/assets/Ellipse-11-lg.svg");
+    background-image: url("./assets/Ellipse-11-lg.svg");
     width: 90.46px;
     height: 57px;
     left: 42.18px;
@@ -806,7 +806,7 @@ a {
   }
 
   .ellipse-5-lg {
-    background-image: url("/assets/Ellipse-5-lg.svg");
+    background-image: url("./assets/Ellipse-5-lg.svg");
     width: 29px;
     height: 27px;
     left: 49%;
@@ -814,7 +814,7 @@ a {
   }
 
   .ellipse-6-lg {
-    background-image: url("/assets/Ellipse-6-lg.svg");
+    background-image: url("./assets/Ellipse-6-lg.svg");
     width: 88px;
     height: 83px;
     left: 86%;
@@ -822,7 +822,7 @@ a {
   }
 
   .rectangle-6-lg {
-    background-image: url("/assets/Rectangle-6-lg.svg");
+    background-image: url("./assets/Rectangle-6-lg.svg");
     width: 91.46px;
     height: 93px;
     left: 10.18px;
@@ -830,7 +830,7 @@ a {
   }
 
   .rectangle-7-lg {
-    background-image: url("/assets/Rectangle-7-lg.svg");
+    background-image: url("./assets/Rectangle-7-lg.svg");
     width: 60.46px;
     height: 24.73px;
     left: 47%;
@@ -838,7 +838,7 @@ a {
   }
 
   .ellipse-8-lg {
-    background-image: url("/assets/Ellipse-8-lg.svg");
+    background-image: url("./assets/Ellipse-8-lg.svg");
     width: 15px;
     height: 15px;
     left: 214px;
@@ -846,7 +846,7 @@ a {
   }
 
   .rectangle-4-lg {
-    background-image: url("/assets/Rectangle-4-lg.svg");
+    background-image: url("./assets/Rectangle-4-lg.svg");
     width: 199.02px;
     height: 144px;
     left: 79%;
@@ -854,7 +854,7 @@ a {
   }
 
   .ellipse-3-lg {
-    background-image: url("/assets/Ellipse-3-lg.svg");
+    background-image: url("./assets/Ellipse-3-lg.svg");
     width: 210px;
     height: 213px;
     left: 83%;
@@ -862,14 +862,14 @@ a {
   }
 
   .ellipse-7-lg {
-    background-image: url("/assets/Ellipse-7-lg.svg");
+    background-image: url("./assets/Ellipse-7-lg.svg");
     width: 42px;
     left: 64%;
     top: 112px;
   }
 
   .rectangle-5-lg {
-    background-image: url("/assets/Rectangle-5-lg.svg");
+    background-image: url("./assets/Rectangle-5-lg.svg");
     width: 163.06px;
     height: 99px;
     left: 51%;
@@ -877,7 +877,7 @@ a {
   }
 
   .ellipse-4-lg {
-    background-image: url("/assets/Ellipse-4-lg.svg");
+    background-image: url("./assets/Ellipse-4-lg.svg");
     width: 49px;
     height: 47px;
     left: 59%;
@@ -885,14 +885,14 @@ a {
   }
 
   .ellipse-13-lg {
-    background-image: url("/assets/Ellipse-13-lg.svg");
+    background-image: url("./assets/Ellipse-13-lg.svg");
     width: 56.1px;
     left: 12%;
     top: 696.44px;
   }
 
   .ellipse-12-lg {
-    background-image: url("/assets/Ellipse-12-lg.svg");
+    background-image: url("./assets/Ellipse-12-lg.svg");
     width: 42.14px;
     height: 23px;
     left: 13%;
@@ -900,15 +900,15 @@ a {
   }
 
   .img-6 {
-    background-image: url("/assets/Snapshoot-1-lg.png");
+    background-image: url("./assets/Snapshoot-1-lg.png");
   }
 
   .img-7 {
-    background-image: url("/assets/Snapshoot-2-lg.png");
+    background-image: url("./assets/Snapshoot-2-lg.png");
   }
 
   .img-8 {
-    background-image: url("/assets/Snapshoot-3-lg.png");
+    background-image: url("./assets/Snapshoot-3-lg.png");
   }
 
   .cards-img-lg {
@@ -945,7 +945,7 @@ a {
   }
 
   .rectangle-4-lg-down {
-    background-image: url("/assets/Rectangle-4-lg-down.svg");
+    background-image: url("./assets/Rectangle-4-lg-down.svg");
     width: 117.02px;
     height: 65.58px;
     left: 85%;
@@ -953,7 +953,7 @@ a {
   }
 
   .ellipse-3-lg-down {
-    background-image: url("/assets/Ellipse-3-lg-down.svg");
+    background-image: url("./assets/Ellipse-3-lg-down.svg");
     width: 120px;
     height: 122px;
     left: 87%;
@@ -961,7 +961,7 @@ a {
   }
 
   .ellipse-12-lg-down {
-    background-image: url("/assets/Ellipse-12-lg-down.svg");
+    background-image: url("./assets/Ellipse-12-lg-down.svg");
     width: 28.14px;
     height: 2px;
     left: 37%;
@@ -969,7 +969,7 @@ a {
   }
 
   .ellipse-5-lg-down {
-    background-image: url("/assets/Ellipse-5-lg-down.svg");
+    background-image: url("./assets/Ellipse-5-lg-down.svg");
     width: 48px;
     height: 9%;
     left: 5%;
@@ -978,7 +978,7 @@ a {
   }
 
   .rectangle-7-lg-down {
-    background-image: url("/assets/Rectangle-7-lg-down.svg");
+    background-image: url("./assets/Rectangle-7-lg-down.svg");
     width: 18%;
     height: 10%;
     left: 6%;
@@ -986,7 +986,7 @@ a {
   }
 
   .rectangle-6-lg-down {
-    background-image: url("/assets/Rectangle-6-lg-down.svg");
+    background-image: url("./assets/Rectangle-6-lg-down.svg");
     width: 36%;
     height: 3%;
     left: 29%;
@@ -994,7 +994,7 @@ a {
   }
 
   .ellipse-11-lg-down {
-    background-image: url("/assets/Ellipse-11-lg-down.svg");
+    background-image: url("./assets/Ellipse-11-lg-down.svg");
     width: 18%;
     height: 8%;
     left: 31%;
@@ -1002,7 +1002,7 @@ a {
   }
 
   .ellipse-13-lg-down {
-    background-image: url("/assets/Ellipse-13-lg-down.svg");
+    background-image: url("./assets/Ellipse-13-lg-down.svg");
     width: 6%;
     height: 10%;
     left: 74%;
