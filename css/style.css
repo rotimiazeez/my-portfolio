@@ -233,7 +233,7 @@ a {
 }
 
 .dodgerblue {
-  color: #6070ff;
+  color: #1426c2;
 }
 
 .slategray {
@@ -249,7 +249,7 @@ a {
 }
 
 .grey {
-  color: #7a869a;
+  color: #4e545f;
 }
 
 .hover:hover {
@@ -921,7 +921,6 @@ a {
 
   .cards-img-lg:hover {
     transform: scale(1.1);
-    background-color: #333;
     background-size: contain;
   }
 
@@ -1010,8 +1009,10 @@ a {
   }
 
   .hover-lg:hover {
-    background-color: #7f8cff;
-    transform: rotateY(180deg);
+    background: #fafbff;
+    box-shadow: 1px 8px 16px rgb(37 22 219 / 48%);
+    border: 1px solid #396df2;
+    color: #260877;
   }
 
   .logo {
@@ -1019,7 +1020,9 @@ a {
   }
 
   @keyframes logo {
-    100% { transform: rotateY(360deg); }
+    100% {
+      transform: rotateY(360deg);
+    }
   }
 
   .form-text {
