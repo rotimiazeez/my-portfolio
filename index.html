@@ -11,16 +11,24 @@
 
 <body>
     <header class="p-rel background-white pad-bottom-2em">
-        <nav class="nav d-flex justify-content-between pad-24 p-fixed background-white padding-104-lg">
+        <nav class="nav d-flex width-100 justify-content-between pad-24 p-fixed background-white padding-104-lg wrap">
             <h4 class="logo dodgerblue pad-t-8 ">
-                My Logo
+                <a href="#"> My Logo</a>
             </h4>
-            <img src="./assets/hamburger.svg" alt="hamburger" class="d-none-lg">
+            <button><img src="./assets/hamburger.svg" alt="hamburger" class="openMenu d-none-lg"></button>
+
+            <ul class="navList width-100 d-block pad-40 d-flex flex-column p-fixed d-flex-lg d-none d-block-lg flex-row-lg">
+                <li class="list d-block d-none"><img src="./assets/close.svg" alt="close menu" class="closeMenu p-absl"></li>
+                <li class="list font-size-16 margin-left-16 slategray height-20 font-weight-500"><a href="" class="links font-size-32 white font-weight-600 d-block-lg">Portfolio</a></li>
+                <li class="list margin-left-16 font-size-16 slategray height-20 font-weight-500"><a href="" class="links font-size-32 white font-weight-600 d-block-lg">About</a></li>
+                <li class="list margin-left-16 font-size-16 slategray height-20 font-weight-500"><a href="" class="links font-size-32 white font-weight-600 d-block-lg">Contact</a></li>
+                <li class="list margin-left-16 font-size-16 slategray height-20 font-weight-500 p-absl indicator-1"></li>
+            </ul>
 
             <ul class="d-flex-lg d-none d-block-lg">
-                <li class="font-size-16 slategray height-20 font-weight-500"><a href=""></a>Portfolio</li>
-                <li class="margin-left-16 font-size-16 slategray height-20 font-weight-500"><a href=""></a>About</li>
-                <li class="margin-left-16 font-size-16 slategray height-20 font-weight-500"><a href=""></a>Contact</li>
+                <li class="font-size-16 slategray height-20 font-weight-500"><a href="">Portfolio</a></li>
+                <li class="margin-left-16 font-size-16 slategray height-20 font-weight-500"><a href="">About</a></li>
+                <li class="margin-left-16 font-size-16 slategray height-20 font-weight-500"><a href="">Contact</a></li>
             </ul>
         </nav>
         <div class="p-absl ellipse-11 background-no-repeat d-none-lg"></div>
@@ -263,12 +271,14 @@
                         <li class="box margin-left-16"></li>
                         <li class="margin-left-16 grey">2015</li>
                     </ul>
-                    <p class="font-weight-400 font-size-16 line-height-24 slateblu pad-top-1em">Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.</p>
+                    <p class="font-weight-400 font-size-16 line-height-24 slateblu pad-top-1em">Experimental content
+                        creation feature that allows users to add to an existing story over the course of a day without
+                        spamming their friends.</p>
                     <ul class="d-flex pad-top-12 pad-bottom-2em pad-top-24">
                         <li
                             class="font-size-13 font-weight-500 background-grey line-height-20 dodgerblue height-20 border-radius-7 width-53 pad-left-13">
                             html</li>
-                            <li
+                        <li
                             class="font-size-13 font-weight-500 background-grey line-height-20 dodgerblue margin-left-8 height-20 border-radius-7 width-88 pad-left-7">
                             Ruby on rails</li>
                         <li
@@ -293,7 +303,8 @@
                 <div class="cards-img-lg img-6 background-no-repeat">
                 </div>
                 <div class="cards-text pad-145-lg width-50">
-                    <h4 class="cards-text-header bold font-size-32 line-height-44 black pad-t-8 slategray">Facebook 360</h4>
+                    <h4 class="cards-text-header bold font-size-32 line-height-44 black pad-t-8 slategray">Facebook 360
+                    </h4>
                     <ul class="d-flex line-height-16 font-weight-600 font-size-13 pad-top-24">
                         <li class="">FACEBOOK</li>
                         <li class="box margin-left-16"></li>
@@ -301,12 +312,14 @@
                         <li class="box margin-left-16"></li>
                         <li class="margin-left-16 grey">2015</li>
                     </ul>
-                    <p class="font-weight-400 font-size-16 line-height-24 slateblu pad-top-1em">Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.</p>
+                    <p class="font-weight-400 font-size-16 line-height-24 slateblu pad-top-1em">Exploring the future of
+                        media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and
+                        videos on Gear VR.</p>
                     <ul class="d-flex pad-top-12 pad-bottom-2em pad-top-24">
                         <li
                             class="font-size-13 font-weight-500 background-grey line-height-20 dodgerblue height-20 border-radius-7 width-53 pad-left-13">
                             html</li>
-                            <li
+                        <li
                             class="font-size-13 font-weight-500 background-grey line-height-20 dodgerblue margin-left-8 height-20 border-radius-7 width-88 pad-left-7">
                             Ruby on rails</li>
                         <li
@@ -328,7 +341,8 @@
         <article class="pad-142 margin-top-6em d-none d-block-lg">
             <div class="cards-lg d-flex align-center background-white pad-16 border-radius-24 pad-bottom-30">
                 <div class="cards-text pad-145-lg width-50">
-                    <h4 class="cards-text-header bold font-size-32 line-height-44 black pad-t-8 slategray">Uber Navigation</h4>
+                    <h4 class="cards-text-header bold font-size-32 line-height-44 black pad-t-8 slategray">Uber
+                        Navigation</h4>
                     <ul class="d-flex line-height-16 font-weight-600 font-size-13 pad-top-24">
                         <li class="">Uber</li>
                         <li class="box margin-left-16"></li>
@@ -336,12 +350,14 @@
                         <li class="box margin-left-16"></li>
                         <li class="margin-left-16 grey">2018</li>
                     </ul>
-                    <p class="font-weight-400 font-size-16 line-height-24 slateblu pad-top-1em">A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.</p>
+                    <p class="font-weight-400 font-size-16 line-height-24 slateblu pad-top-1em">A smart assistant to
+                        make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.
+                    </p>
                     <ul class="d-flex pad-top-12 pad-bottom-2em pad-top-24">
                         <li
                             class="font-size-13 font-weight-500 background-grey line-height-20 dodgerblue height-20 border-radius-7 width-53 pad-left-13">
                             html</li>
-                            <li
+                        <li
                             class="font-size-13 font-weight-500 background-grey line-height-20 dodgerblue margin-left-8 height-20 border-radius-7 width-88 pad-left-7">
                             Ruby on rails</li>
                         <li
@@ -365,26 +381,28 @@
 
     <section class="background-white pad-24 d-flex-lg pad-142 border-top-radius-right-5e">
         <div class="">
-        <h3 class="pad-top-15 font-size-40 font-weight-800 line-height-52 slategray margin-bottom-8 pad-top-1em">
-            About Myself
-        </h3>
-        <p class="font-size-16 font-weight-500 line-height-24 slategray margin-bottom-8">
-            Hello I’m a software developer! I can help you build a product , feature or website Look through some of my
-            work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact
-            me.
-        </p>
-        <p class="dodgerblue font-size-16 font-weight-700 line-height-24 margin-bottom-8">LET’S CONNECT</p>
-        <ul class="d-flex font-size-24 slategray margin-bottom-8">
-            <li><a href="#" class=""><img src="./assets/twitter.svg" alt="twitter icon"></a></li>
-            <li><a href="#" class="margin-left-16"><img src="./assets/linkedin.svg" alt="linkedin icon"></a></li>
-            <li><a href="#" class="margin-left-16"><img src="./assets/medium.svg" alt="medium icon"></a></li>
-            <li><a href="#" class="margin-left-16"><img src="./assets/git.svg" alt="git icon"></a></li>
-            <li> <a href="#" class="margin-left-16"><img src="./assets/angelist.svg" alt="angellist icon"></a></li>
-        </ul>
-        <button type="button"
-            class="button dodgerblue border height-48 font-weight-600 font-size-18 line-height-24 hover active hover-lg">Get
-            my
-            resume</button>
+            <h3 class="pad-top-15 font-size-40 font-weight-800 line-height-52 slategray margin-bottom-8 pad-top-1em">
+                About Myself
+            </h3>
+            <p class="font-size-16 font-weight-500 line-height-24 slategray margin-bottom-8">
+                Hello I’m a software developer! I can help you build a product , feature or website Look through some of
+                my
+                work and experience! If you like what you see and have a project you need coded, don’t hestiate to
+                contact
+                me.
+            </p>
+            <p class="dodgerblue font-size-16 font-weight-700 line-height-24 margin-bottom-8">LET’S CONNECT</p>
+            <ul class="d-flex font-size-24 slategray margin-bottom-8">
+                <li><a href="#" class=""><img src="./assets/twitter.svg" alt="twitter icon"></a></li>
+                <li><a href="#" class="margin-left-16"><img src="./assets/linkedin.svg" alt="linkedin icon"></a></li>
+                <li><a href="#" class="margin-left-16"><img src="./assets/medium.svg" alt="medium icon"></a></li>
+                <li><a href="#" class="margin-left-16"><img src="./assets/git.svg" alt="git icon"></a></li>
+                <li> <a href="#" class="margin-left-16"><img src="./assets/angelist.svg" alt="angellist icon"></a></li>
+            </ul>
+            <button type="button"
+                class="button dodgerblue border height-48 font-weight-600 font-size-18 line-height-24 hover active hover-lg">Get
+                my
+                resume</button>
         </div>
         <div class="pad-0 margin-left-49">
             <ul>
@@ -393,31 +411,37 @@
                         <h4 class="margin-top-28 font-size-28 line-height-24 margin-left-8 pad-t-8 black text">
                             Languages
                         </h4>
-                        <img src="./assets/Union.svg" alt="arrow down" class="pad-top-2em margin-left-9e margin-left-33e-lg">
+                        <img src="./assets/Union.svg" alt="arrow down"
+                            class="pad-top-2em margin-left-9e margin-left-33e-lg">
                     </div>
                     <ul class="d-flex-lg">
-                        <li class="about d-flex align-center flex-column-lg margin-top-28 about-lg pad-top-12 margin-left-12 margin-top-12-lg text font-size-15-lg">
+                        <li
+                            class="about d-flex align-center flex-column-lg margin-top-28 about-lg pad-top-12 margin-left-12 margin-top-12-lg text font-size-15-lg">
                             <img src="./assets/Ellipse-js.png" alt="js logo" class="about-logo margin-left-12">
                             <p class="logo-text font-size-24 font-weight-700 slategray margin-left-14">Javascript</p>
                         </li>
-                        <li class="about d-flex align-center margin-top-12 flex-column-lg about-lg pad-top-12 margin-left-12 text font-size-15-lg">
+                        <li
+                            class="about d-flex align-center margin-top-12 flex-column-lg about-lg pad-top-12 margin-left-12 text font-size-15-lg">
                             <img src="./assets/Ellipse-ht.png" alt="js logo" class="about-logo margin-left-12">
                             <p class="logo-text font-size-24 font-weight-700 slategray margin-left-14">HTML</p>
                         </li>
-                        <li class="about d-flex align-center margin-top-12 flex-column-lg about-lg pad-top-12 margin-left-12 text font-size-15-lg">
+                        <li
+                            class="about d-flex align-center margin-top-12 flex-column-lg about-lg pad-top-12 margin-left-12 text font-size-15-lg">
                             <img src="./assets/Ellipse-cs.png" alt="js logo" class="about-logo margin-left-12">
                             <p class="logo-text font-size-24 font-weight-700 slategray margin-left-14">CSS</p>
                         </li>
                     </ul>
                 </li>
                 <li class="d-flex">
-                    <h5 class="margin-top-28 font-size-28 line-height-24 margin-left-8 pad-t-8 black border-btm border-btm-lg height-48 text">
+                    <h5
+                        class="margin-top-28 font-size-28 line-height-24 margin-left-8 pad-t-8 black border-btm border-btm-lg height-48 text">
                         Framework
                     </h5>
                     <img src="./assets/Union1.svg" alt="arrow left" class="pad-top-2em">
                 </li>
                 <li class="d-flex">
-                    <h6 class="margin-top-28 font-size-28 line-height-24 margin-left-8 pad-t-8 black border-btm border-btm-lg height-48 text">
+                    <h6
+                        class="margin-top-28 font-size-28 line-height-24 margin-left-8 pad-t-8 black border-btm border-btm-lg height-48 text">
                         Skills
                     </h6>
                     <img src="./assets/Union1.svg" alt="arrow left" class="pad-top-2em">
@@ -483,6 +507,7 @@
             </form>
         </section>
     </footer>
+    <script src="portfolio.js"></script>
 </body>
 
 </html>

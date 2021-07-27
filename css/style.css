@@ -116,6 +116,14 @@ body {
   width: 50%;
 }
 
+.width-100 {
+  width: 100%;
+}
+
+.max-width-400 {
+  max-width: 400px;
+}
+
 .height-16 {
   height: 16px;
 }
@@ -470,6 +478,10 @@ a {
   padding: 16px 36px 16px;
 }
 
+.pad-40 {
+  padding: 40px 0;
+}
+
 .border-radius-24 {
   border-radius: 24px;
 }
@@ -503,6 +515,39 @@ a {
   left: 0%;
   right: 0%;
   z-index: 1;
+}
+
+.nav .navList {
+  top: 0;
+  left: -100%;
+  height: 100vh;
+  line-height: 45px;
+  transition: all 0.3s ease;
+  background: #6070ff;
+  opacity: 96%;
+}
+
+.nav .navList.active {
+  left: 0;
+}
+
+.list {
+  margin-top: 45px;
+  padding-left: 28px;
+}
+
+.closeMenu {
+  left: 84%;
+  top: 4%;
+  width: 22px;
+}
+
+.indicator-1 {
+  background-image: url("../assets/Shape.svg");
+  width: 36%;
+  height: 1%;
+  left: 27%;
+  top: 92%;
 }
 
 .ellipse-11 {
@@ -795,6 +840,12 @@ a {
 
   .padding-229-lg {
     padding: 157px 229px 0;
+  }
+
+  .navList .list {
+    color: #172b4d;
+    display: flex;
+    flex-direction: row;
   }
 
   .ellipse-11-lg {
