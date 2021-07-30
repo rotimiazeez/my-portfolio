@@ -1136,6 +1136,7 @@ a {
 
   .modal-img-lg {
     background-image: url("../assets/Snapshoot-5.png");
+    height: 794px;
     width: 100%;
     background-size: cover;
   }

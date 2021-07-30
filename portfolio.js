@@ -22,8 +22,8 @@ function implementProject() {
   let i = 0;
   myProjects.forEach((project) => {
     const cardId = `card-button-${i + 1}`;
-    portfolioWork.innerHTML += `<article class="work-article pad-24 margin-top-6em">
-    <div class="cards cards d-flex flex-column align-center background-white pad-16 border-radius-16 pad-bottom-30">
+    portfolioWork.innerHTML += `<article class="work-article align-center pad-24 margin-top-6em">
+    <div class="cards d-flex flex-column background-white pad-16 border-radius-16 pad-bottom-30">
     <div class="cards-img cards-img-lg img background-no-repeat">
     </div>
     <div class="cards-text">
