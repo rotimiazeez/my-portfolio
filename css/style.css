@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;800&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 * {
   margin: 0;
@@ -450,6 +450,14 @@ a {
   margin-top: 12px;
 }
 
+.margin-top-18 {
+  margin-top: 18px;
+}
+
+.margin-top-24 {
+  margin-top: 24px;
+}
+
 .margin-top-28 {
   margin-top: 28px;
 }
@@ -472,6 +480,14 @@ a {
 
 .margin-bottom-2em {
   margin-bottom: 2.5em;
+}
+
+.margin-right-8 {
+  margin-right: 8px;
+}
+
+.margin-auto {
+  margin: auto;
 }
 
 .pad-22 {
@@ -793,11 +809,63 @@ a {
   background: #c1c7d0b3;
   height: 100%;
   width: 100%;
+  overflow-y: auto;
+  align-items: center;
 }
 
 .modal-content {
-  margin-top: 6em;
-  padding-bottom: 30px;
+  position: relative;
+  margin: auto;
+  padding-bottom: 16px;
+}
+
+.closePopup {
+  position: absolute;
+  right: 29px;
+  top: 29px;
+  font-size: 36px;
+  color: #67798e;
+}
+
+.popup-title {
+  margin: 18px 0 22px;
+}
+
+.popup-ul-subtitle {
+  margin-bottom: 20px;
+}
+
+.popup-subtitle-first-item {
+  color: #344563;
+}
+
+.popup-horizontal-line {
+  width: 100%;
+  border-bottom: 1px solid #ebecf0;
+}
+
+.popup-tech-item {
+  color: #6070ff;
+  line-height: 16px;
+  background-color: #ebebff;
+  padding: 4px 12px;
+}
+
+.popup-button {
+  padding: 14px 8px;
+  vertical-align: middle;
+  display: inline-flex;
+  margin-right: 8px;
+  color: #396df2;
+}
+
+.popup-icon {
+  display: inline-block;
+  margin-left: 8px;
+}
+
+.popup-text {
+  color: #344563;
 }
 
 @media only screen and (min-width: 992px) {
@@ -879,6 +947,10 @@ a {
 
   .d-flex-lg {
     display: flex;
+  }
+
+  .d-flex-if {
+    display: inline-flex;
   }
 
   .flex-column-lg {
@@ -1027,7 +1099,6 @@ a {
   }
 
   .cards-img-lg {
-    width: 50%;
     height: 434px;
     background-size: cover;
     transition-property: all;
@@ -1054,13 +1125,13 @@ a {
   }
 
   .cards-text {
-    width: 50%;
+    width: 100%;
     padding: 0 24px 145px;
   }
 
   .modal {
     align-items: flex-start;
-    height: 70%;
+    height: 100%;
   }
 
   .modal-img-lg {
@@ -1156,6 +1227,14 @@ a {
 
   .logo {
     animation: logo 2s ease-in-out;
+  }
+
+  .second-section-modal {
+    display: flex;
+  }
+
+  .popup-text {
+    width: 778px;
   }
 
   @keyframes logo {
