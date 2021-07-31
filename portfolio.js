@@ -142,3 +142,17 @@ function openModal() {
 }
 
 openModal();
+
+const form = document.querySelector('form');
+const emailInput = document.getElementById('email');
+
+form.addEventListener('submit', (event) => {
+  const validateRegex = /[A-Z]/;
+
+  if (validateRegex.test(emailInput.value)) {
+    document.getElementById('email_message').classList.toggle('d-none');
+    event.preventDefault();
+  } else if (!document.getElementById('email_message').className === 'email_message d-none') {
+    document.getElementById('email_message').classList.toggle('d-none');
+  }
+});
